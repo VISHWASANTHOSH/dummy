@@ -17,8 +17,6 @@ jobs:
       run: |
         git config user.name "Santhosh-Nagarajan"
         git config user.email "nsmgbros001@gmail.com"
+        git branch --all
         
-        git checkout feature
-        git merge ahamed feature
-        git push origin feature
 
