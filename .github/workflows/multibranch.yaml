@@ -11,15 +11,14 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Merge Feature into Ahamed
       run: |
-        git config user.name "Santhosh-Nagrajan"
-        git config user.email "nsmgbros001@github.com"
-
-        git checkout ahamed
-        git merge origin/feature
-
-        git push origin ahamed
+        git config user.name "Santhosh-Nagarajan"
+        git config user.email "nsmgbros001@gmail.com"
+        
+        git checkout feature
+        git merge ahamed feature
+        git push origin feature
 
