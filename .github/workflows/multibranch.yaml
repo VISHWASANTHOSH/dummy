@@ -24,7 +24,7 @@ jobs:
         git pull -r
         git checkout feature
         git branch
-        git merge ahamed
+        git merge --allow-unrelated-histories ahamed
         git log
           
           
