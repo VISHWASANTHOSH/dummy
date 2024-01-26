@@ -22,9 +22,9 @@ jobs:
       run: |
           git remote -v 
           git branch --all
-          git pull
+          git pull -r
           git checkout feature
           git branch 
-          git merge ahamed origin/feature
+          
           
 
