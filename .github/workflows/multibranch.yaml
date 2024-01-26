@@ -24,9 +24,10 @@ jobs:
           git branch --all
           git pull -r
           git checkout feature
-          git branch 
+          git branch
+          git merge ahamed
           git log
-          git branch --all
+        
           
           
 
