@@ -22,10 +22,8 @@ jobs:
       run: |
         git remote -v
         git pull -r
-        git log
         git checkout feature
-        git merge --allow-unrelated-histories feature
-        git merge ahamed feature
+      
         git log
           
           
