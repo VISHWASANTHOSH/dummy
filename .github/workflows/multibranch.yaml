@@ -1,0 +1,25 @@
+name: Merge Feature Branch
+
+on:
+  push:
+    branches:
+      - feature
+
+jobs:
+  merge-feature:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Merge Feature into Ahamed
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+
+        git checkout ahamed
+        git merge origin/feature
+
+        git push origin ahamed
+
