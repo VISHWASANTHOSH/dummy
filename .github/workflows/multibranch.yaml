@@ -20,13 +20,10 @@ jobs:
 
     - name: Merge Feature Branch
       run: |
-          git remote -v    
-          git pull -r
-          git checkout feature
-          git branch
-          git merge --allow-unrelated-histories origin/ahamed
-          git log
-        
+        git remote -v    
+        git checkout feature
+        git pull --rebase origin/ahamed
+        git log
           
           
           
