@@ -23,7 +23,7 @@ jobs:
         git remote -v
         git pull
         git checkout develop
-        git pull --rebase origin/ahamed
+        git pull --rebase ahamed
         git rebase ahamed
           
           
