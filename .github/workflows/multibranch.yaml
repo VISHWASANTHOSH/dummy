@@ -21,5 +21,6 @@ jobs:
     - name: Merge Feature Branch
       run: |
           git remote -v 
-           git branch --all
+          git branch --all
+          git branch --track remotes/origin/feature 
 
