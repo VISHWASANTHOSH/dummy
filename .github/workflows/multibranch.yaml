@@ -20,7 +20,13 @@ jobs:
 
     - name: Merge Feature Branch
       run: |
-          git remote -v 
+          git remote -v    
+          git pull -r
+          git checkout feature
+          git branch
+          git merge remotes/origin/ahamed
+          git log
+        
           
           
           
