@@ -24,7 +24,7 @@ jobs:
           git pull -r
           git checkout feature
           git branch
-          git rebase ahamed
+          git rebase --continue
           git log
         
           
