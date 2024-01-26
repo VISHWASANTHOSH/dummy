@@ -24,7 +24,6 @@ jobs:
         git fetch
         git checkout develop
         git branch
-        git rebase --continue ahamed develop          
-          
+        git rebase --skip          
           
 
