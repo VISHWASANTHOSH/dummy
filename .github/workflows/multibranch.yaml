@@ -20,9 +20,11 @@ jobs:
 
     - name: Merge Feature Branch
       run: |
-        git remote -v    
+        git remote -v
+        git pull -r
         git checkout feature
-        git pull --rebase origin/ahamed
+        git branch
+        git merge ahamed
         git log
           
           
