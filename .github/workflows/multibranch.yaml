@@ -21,9 +21,9 @@ jobs:
     - name: Merge Feature Branch
       run: |
         git remote -v
-        
+        git pull
         git checkout develop
-        git merge ahamed develop
+        git merge --allow-unrelated-histories ahamed develop
         git log
           
           
