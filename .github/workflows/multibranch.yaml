@@ -21,9 +21,10 @@ jobs:
     - name: Merge Feature Branch
       run: |
         git remote -v
-        git branch --unset-upstream ahamed
         git branch --all
-        git branch --unset-upstream develop
+        git checkout develop
+        git merge ahamed develop
+        
         
           
 
