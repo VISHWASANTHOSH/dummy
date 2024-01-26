@@ -21,9 +21,9 @@ jobs:
     - name: Merge Feature Branch
       run: |
         git remote -v
-        git pull
+        
         git checkout develop
-        git pull --rebase develop
+        git 
         git rebase ahamed
           
           
