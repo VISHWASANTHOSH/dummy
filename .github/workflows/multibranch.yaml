@@ -24,7 +24,7 @@ jobs:
           git pull -r
           git checkout feature
           git branch
-          git merge remotes/origin/ahamed
+          git rebase ahamed
           git log
         
           
