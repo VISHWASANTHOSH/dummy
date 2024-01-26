@@ -25,6 +25,6 @@ jobs:
           git pull
           git checkout feature
           git branch 
-          git merge ahamed feature
+          git merge ahamed feature 
           
 
