@@ -23,8 +23,8 @@ jobs:
         git remote -v
         git pull
         git checkout develop
-        git merge --allow-unrelated-histories ahamed develop
-        git log
+        git pull --rebase origin/develop
+        git rebase ahamed
           
           
           
