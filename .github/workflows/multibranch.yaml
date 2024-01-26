@@ -21,10 +21,10 @@ jobs:
     - name: Merge Feature Branch
       run: |
         git remote -v
-        
+        git fetch
         git checkout develop
-        git 
-        git rebase ahamed
+        git branch
+        git rebase ahamed develop
           
           
           
