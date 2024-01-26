@@ -3,7 +3,7 @@ name: Merge Feature Branch
 on:
   push:
     branches:
-      - feature
+      - ahamed
 
 jobs:
   merge-feature:
@@ -15,8 +15,8 @@ jobs:
 
     - name: Merge Feature into Ahamed
       run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
+        git config user.name "Santhosh-Nagrajan"
+        git config user.email "nsmgbros001@github.com"
 
         git checkout ahamed
         git merge origin/feature
