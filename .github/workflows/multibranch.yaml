@@ -13,10 +13,13 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Merge Feature into Ahamed
+    - name: Git User
       run: |
         git config user.name "Santhosh-Nagarajan"
         git config user.email "nsmgbros001@gmail.com"
-        git branch --all
-        
+
+    - name: Merge Feature Branch
+      run: |
+          git remote -v 
+           git branch --all
 
