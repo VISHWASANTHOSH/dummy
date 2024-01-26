@@ -23,7 +23,7 @@ jobs:
         git remote -v
         git pull -r
         git checkout develop
-        git merge develop
+        git merge ahamed develop
         git log
           
           
